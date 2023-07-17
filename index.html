@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sakura Card Captors</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Freehand&family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+  </head>
+  <body>
+    <header class="cabecalho">
+      <img class="logo" src="./src/imagens/download.png" alt="Logo Sakura">
+    </header>
+
+    <main class="selecao-de-personagens">
+      <section class="personagens">
+        <h1 class="titulo">Selecione um personagem</h1>
+        <ul class="lista-de-personagens">
+          <li class="personagem selecionado" id="sakura" data-name="Sakura" data-description="Sakura Kinomoto é a principal protagonista e personagem-título da série de mangá Cardcaptor Sakura de Clamp">
+            <img
+              src="./src/imagens/Sakura.png"
+              alt="Personagem Sakura"
+            />
+          </li>
+          <li class="personagem" id="kerberos" data-name="Kerberos" data-description="O guardião do lacre das Cartas Clow, Kerberos  é o guardião do lacre das cartas Clow.">
+            <img
+              src="./src/imagens/Kerberos.png"
+              alt="Personagem Kerberos"
+            />
+          </li>
+
+          <li class="personagem" id="tomoyo-daidouji" data-name="Tomoyo Daidouji" data-description="Tomoyo é a típica personagem meiga e amorosa, entre a suas habilidades estão a costura,tanto que ela faz os figurinos da Sakura.">
+            <img
+              src="./src/imagens/Tomoyo_Daidjouji_Anime.png"
+              alt="Personagem Tomoyo Daidouji"
+            />
+          </li>
+
+          <li class="personagem" id="shoran-li" data-name="Shoran Li" data-description="Shoran li é o rival de Sakura nas Cartas Clow, mas eles gradualmente se tornam amigos e aliados próximos. Ele também se apaixona por Sakura.">
+            <img
+              src="./src/imagens/Syaoran_1.png"
+              alt="Personagem Shoran Li"
+            />
+          </li>
+
+          <li class="personagem" id="mago-clow" data-name="Mago Clow" data-description="Ele foi o criador do Clow, estes são um grupo de cartas com poderes mágicos, eles mantiveram dentro de um espírito com uma habilidade especial.">
+            <img
+              src="./src/imagens/Mago Clow.png"
+              alt="Personagem Mago Clow"
+            />
+          </li>
+
+          <li class="personagem" id="fujitaka-kinomoto" data-name="Fujitaka Kinomoto" data-description="Fujitaka é pai de Sakura Kinomoto e Toya Kinomoto. Apesar de seu trabalho muito ocupado como professor universitário de arqueologia na Towa University.">
+            <img
+              src="./src/imagens/Fujitaka Kinomoto.png"
+              alt="Personagem Fujitaka Kinomoto"
+            />
+          </li>
+
+
+          
+          </li>
+        </ul>
+      </section>
+      <section class="personagem-selecionado">
+        <img
+          class="personagem-grande"
+          src="./src/imagens/card-sakura.gif"
+          alt="Personagem Selecionado"
+        />
+
+        <div class="informacoes-personagem">
+          <h2 class="nome-personagem" id="nome-personagem">Sakura</h2>
+          <p class="descricao-personagem" id="descricao-personagem"> 
+            Sakura Kinomoto é a principal protagonista e personagem-título da série de mangá Cardcaptor Sakura de Clamp
+          </p>
+        </div>
+      </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
